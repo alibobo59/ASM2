@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 80px;
+}
+
+
+.nav-bar{
+    display: flex;
+    margin-right: 20px;
+}
+.nav-bar li{
+    display: flex;
+    padding: 30px 30px;
+    height: 100px;
+    
+}
+
+.nav-bar li a {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar li :hover{
+    background-color: red;
+}
+
+.logo{
+    padding: 30px;
+ 
+    
+}
+.logo a{
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
